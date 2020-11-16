@@ -9,12 +9,15 @@ import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700')
 
     html, body{
       max-width: 100%;
-      overflow-x: hidden;
+      overflow: hidden;
     }
 
 
   body {
-    font-family: 'Roboto', sans-serif;   
+    font-family: 'Roboto', sans-serif;  
+    height: 100vh; 
+    background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/03/Fantastic-Pokemon-Wallpaper-Background.jpg");
+    background-position: 0% 150% ;
     /* background-color:  lightsteelblue; */
     /* background: linear-gradient(
         15deg,
@@ -26,9 +29,9 @@ import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700')
         rgba(255, 255, 255, 1) 86%,
         rgba(220, 220, 220, 1) 89%,
         rgba(230, 230, 230, 1) 100%); */
-    background-color: #09a8ff;
-    background-blend-mode: overlay;
-    margin-top:100px;
+    /* background-color: #09a8ff;
+    background-blend-mode: overlay; */
+    margin-top: 75px;
   }
 /* mainRed #de1537
 darkred #8f0c25
@@ -45,6 +48,7 @@ green #4ca459 */
     border-radius: 15px;
     border: double black 10px;
     display: flex;
+    margin-top:230px;
 }
 
 .panel {
