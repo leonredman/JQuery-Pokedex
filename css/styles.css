@@ -1,4 +1,4 @@
-import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
 
 
 * {
@@ -15,9 +15,8 @@ import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700')
 
   body {
     font-family: 'Roboto', sans-serif;  
-    height: 100vh; 
-    background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/03/Fantastic-Pokemon-Wallpaper-Background.jpg");
-    background-position: 0% 150% ;
+   
+    /* background-position: 0% 150% ; */
     /* background-color:  lightsteelblue; */
     /* background: linear-gradient(
         15deg,
@@ -31,7 +30,7 @@ import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700')
         rgba(230, 230, 230, 1) 100%); */
     /* background-color: #09a8ff;
     background-blend-mode: overlay; */
-    margin-top: 75px;
+    
   }
 /* mainRed #de1537
 darkred #8f0c25
@@ -39,16 +38,52 @@ blue # #8f0c25
 grey #dedede
 green #4ca459 */
 
+.header {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    height:110px;
+    background-color: black;
+}
+.logo{
+    width: 180px;
+    height:100px;
+    padding:20px;
+    
+}
+.hamburger-nav {
+    width:100px;
+    padding: 20px;
+    margin-right:60px;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url("https://images.freecreatives.com/wp-content/uploads/2016/03/Fantastic-Pokemon-Wallpaper-Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.pokedex-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
 .pokedex {
-    background-color: #e61515;
+    display: flex;
+        background-color: #e61515;
     width: 848px; 
-    height: 620px;
-    margin: 0 auto;
+    height: 660px;
+    /* margin: 0 auto; */
     padding: 1em;
     border-radius: 15px;
     border: double black 10px;
-    display: flex;
-    margin-top:230px;
+    /* position: relative;
+    top: 100px;  */
 }
 
 .panel {
