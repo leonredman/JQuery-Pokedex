@@ -13,7 +13,7 @@ data on front end.  The UI was inspired by a React project from Codepen.io. I ba
 **Demo**
 ---------
 
-The project is live on Netlify -
+The project is live on GH Pages -
 [Click Here](https://leonredman.github.io/JQuery-Pokedex/)
 
  **Built With**
